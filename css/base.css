@@ -1,0 +1,179 @@
+* , html{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h1{
+	letter-spacing: .5rem;
+	font-size: 2.3rem !important;
+	color: rgba(244,164,96,1);
+	font-weight: 500 !important;
+	position: relative;
+	top: .3rem;
+	border: ;
+}
+
+header{
+	background-color: #34495e;
+}
+
+
+ul{
+	display: flex;
+    gap: 3rem	
+}
+
+a{
+	letter-spacing: .2rem;
+	color: rgba(244,164,96,1) !important;
+}
+
+a:hover{
+	color: rgba(163, 110, 64, .7) !important;
+}
+
+i{
+	font-size: 2rem;
+	color: rgba(163, 110, 64, .7) !important;
+	transition: .5s;
+	cursor: pointer;
+}
+
+i:hover{
+	color: rgba(244,164,96,1) !important;
+	transition: .5s;
+}
+
+
+
+
+.tittle, 
+.wrap-icon,
+.hamburguer{
+	
+}
+
+.hide-menu-btn,
+.show-menu-btn{
+   position: absolute;
+   top: -1.1rem;
+   transition: 1s;
+   font-size: 3em;
+   cursor: pointer;
+   display: none;
+   color: #2ecc71;
+   
+}
+
+.hide-menu-btn:hover,
+.show-menu-btn:hover{
+   color: gray;
+   transition: 1s;    
+}
+
+#chk{
+  display: none;
+}
+
+
+
+
+
+@media (max-width: 1366px){
+      
+      h1{
+      	font-size: 1.5em !important;
+      }
+
+}
+
+@media (max-width: 1200px){
+      
+      i{
+	    font-size: 1.5rem;
+       }
+  
+       h1{
+      	 font-size: 1em !important;
+      	 letter-spacing: .3rem;
+       }
+}
+
+
+@media (max-width: 992px){
+
+	  body{
+	  	overflow: hidden;
+	  }
+
+	  header{
+	  	padding: 0 1rem;
+	  }
+
+
+	  h1{
+      	font-size: 1.3em !important;
+      }
+
+      nav{
+      	position: fixed !important;
+        left: 100%;
+        width: 100vw;
+      	height: 100vh;
+      	z-index: 1;
+      	background-color: #34495e;
+      	transition: 2s;
+      }
+
+      li{
+      	width: 100vw;
+      	display: flex;
+      	justify-content: center;
+      }
+
+      .show-menu-btn,
+      .hide-menu-btn{
+      	display: block !important;
+      }
+
+
+      .show-menu-btn,
+      .hide-menu-btn{
+      	position: absolute;
+      	right: 2rem;
+      	top: 0rem;
+      }
+
+      .show-menu-btn{
+      	 top: -1.1rem;
+      }
+
+      .show-menu-btn i{
+      	font-size: .6em;
+      }
+
+      .hide-menu-btn i{
+      	font-size: 2rem;
+      }
+
+       #chk:checked ~ nav{
+      left: 0;
+    }
+      
+}
+
+
+@media (max-width: 768px){
+	.wrap-icon{
+		display: none !important;
+	}
+}
+
+
+@media (max-width: 640px){
+      
+      h1{
+      	font-size: 1em !important;
+      }
+}
