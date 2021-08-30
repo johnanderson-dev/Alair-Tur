@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body{
+	overflow-x: hidden;
+}
+
 h1{
 	letter-spacing: .5rem;
 	font-size: 2.3rem !important;
@@ -48,11 +52,6 @@ i:hover{
 
 
 
-.tittle, 
-.wrap-icon,
-.hamburguer{
-	
-}
 
 .hide-menu-btn,
 .show-menu-btn{
@@ -62,13 +61,11 @@ i:hover{
    font-size: 3em;
    cursor: pointer;
    display: none;
-   color: #2ecc71;
-   
 }
 
 .hide-menu-btn:hover,
 .show-menu-btn:hover{
-   color: gray;
+   
    transition: 1s;    
 }
 
@@ -98,6 +95,10 @@ i:hover{
       	 font-size: 1em !important;
       	 letter-spacing: .3rem;
        }
+
+      .wrap-icon{
+		display: none !important;
+	   }
 }
 
 
@@ -157,17 +158,22 @@ i:hover{
       	font-size: 2rem;
       }
 
+      .show-menu-btn i,
+      .hide-menu-btn i{
+        color: rgba(244,164,96,.7) !important;
+        transition: .2s;
+      }
+
+      .show-menu-btn i:hover,
+      .hide-menu-btn i:hover{
+        color: rgba(244,164,96,1) !important;
+        transition: .2s;
+      }
+
        #chk:checked ~ nav{
       left: 0;
     }
       
-}
-
-
-@media (max-width: 768px){
-	.wrap-icon{
-		display: none !important;
-	}
 }
 
 
