@@ -13,6 +13,8 @@
   
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/slide.css">
+
+  <script src="js/script.js"></script>
   
 </head>
 <body>
@@ -110,38 +112,26 @@
 
            <div class="place d-flex flex-column">
             <span>Local:</span>
-            <select name="select" class="form-select">
-              <option value="jeri" selected>Jericoacoara</option>
-              <option value="chico">Chico do Carangueijo</option>
-              <option value="canoa">Canoa Quebrada</option>
+            <select name="select" class="form-select" id="select-local">
+              <option value="jeri" onclick="jeri()" selected>Jericoacoara</option>
+              <option value="chico" onclick="chico()">Chico do Carangueijo</option>
+              <option value="canoa" onclick="canoa()" id="canoa">Canoa Quebrada</option>
             </select>
            </div>
 
-           <div class="place d-flex flex-column">
-            <span>Local:</span>
-            <select name="select" class="form-select">
-              <option value="jeri" selected>Jericoacoara</option>
-              <option value="chico">Chico do Carangueijo</option>
-              <option value="canoa">Canoa Quebrada</option>
-            </select>
+           <div class="place d-flex flex-column" id="go">
+            <span>Ida:</span>
+            <input class="form-control" type="text" disabled="disabled" value="30/09">
            </div>
 
            <div class="place d-flex flex-column">
-            <span>Local:</span>
-            <select name="select" class="form-select">
-              <option value="jeri" selected>Jericoacoara</option>
-              <option value="chico">Chico do Carangueijo</option>
-              <option value="canoa">Canoa Quebrada</option>
-            </select>
+            <span>Volta:</span>
+            <input class="form-control" type="text" disabled="disabled" value="30/09/2021">
            </div>
 
            <div class="place d-flex flex-column">
-            <span>Local:</span>
-            <select name="select" class="form-select">
-              <option value="jeri" selected>Jericoacoara</option>
-              <option value="chico">Chico do Carangueijo</option>
-              <option value="canoa">Canoa Quebrada</option>
-            </select>
+            <span>Transporte:</span>
+            <input class="form-control" type="text" disabled="disabled" value=" Blue Tour Viagens">
            </div>
 
       </div>

@@ -81,11 +81,11 @@ figure{
 .col-travels span{
 	color: white;
 	line-height: 3;
-	-webkit-font-family::Comfortaa', cursive;;
-    -moz-font-family::Comfortaa', cursive;;
-    -ms-font-family::Comfortaa', cursive;;
-     -o-font-family::Comfortaa', cursive;;
-        font-family::Comfortaa', cursive;;
+	-webkit-font-family::Comfortaa', cursive;
+    -moz-font-family::Comfortaa', cursive;
+    -ms-font-family::Comfortaa', cursive;
+     -o-font-family::Comfortaa', cursive;
+        font-family::Comfortaa', cursive;
 }
 
 .col-travels div{

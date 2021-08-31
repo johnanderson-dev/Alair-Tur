@@ -1,17 +1,7 @@
-const header = getElmentsByTagName('header')[0];
-const menu = header.offSetTop;
 
-window.onscroll = function(){
-	fixarNoTopo();
-}
+const canoa = document.getElementById('canoa');
 
-function fixarNoTopo(){
+canoa.addEventListener('click' , function(){
 
-     if(window.pageYOffset >= menu){
-         header.classList.add('fixed')
-     }
-
-     else{
-     	header.classList.remove('fixed')
-     }
- }
+      console.log('hello word!');
+});
