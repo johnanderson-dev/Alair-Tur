@@ -1,7 +1,14 @@
+const ida = document.getElementById('ida');
 
-const canoa = document.getElementById('canoa');
+const bus = document.getElementById('veiculo');
 
-canoa.addEventListener('click' , function(){
 
-      console.log('hello word!');
-});
+function canoa(){
+
+   const volta = document.getElementById('volta');
+   const valor = volta.value;
+
+   valor.setAttribute('text' , 'true');
+
+}
+

@@ -91,3 +91,68 @@ figure{
 .col-travels div{
 	margin: 0 .5rem;
 }
+
+@media (max-width:  1100px){
+
+	  .row-travels h2{
+	  	  font-size: 2.5em;
+	  }
+
+     input{
+     	  width: 120px !important;
+     } 
+    
+     input#veiculo{
+       width: 180px !important;
+     }
+
+     select{
+       width: 150px !important;
+     }
+
+}
+
+@media (max-width:  900px){
+
+	.next-travels{
+      height: 60vh;
+}
+
+@media (max-width:  780px){
+  
+   .veiculo{
+   	display: none !important;
+   }
+
+   .row-travels h2{
+	 	  font-size: 2em;
+	 }
+
+	 .col-travels{
+	 	padding: .5rem .5rem 1rem .5rem;
+	 }
+
+	 .col-travels span{
+	    line-height: 2;
+    }
+
+    .next-travels{
+      height: 50vh;
+}
+
+@media (max-width:  590px){
+     .next-travels{
+      height: 40vh;
+}	
+  
+@media (max-width:  520px){
+     
+     input, select{
+     	   font-size: .8rem !important;
+     	   width: 100px !important;
+     }
+
+     .next-travels{
+      height: 30vh;
+}	
+
