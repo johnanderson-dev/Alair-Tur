@@ -13,7 +13,7 @@
   
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/slide.css">
-
+  <link rel="stylesheet" href="css/main.css">
   <script src="js/script.js"></script>
   
 </head>
@@ -40,7 +40,7 @@
    
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Orçamento</a>
+          <a class="nav-link" href="#">Excursões</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Planos</a>
@@ -107,26 +107,26 @@
    
 
    <div class="row-travels">
-    <h2>Proximas Viagens:</h2>
+    <h2>Próxima Excursão:</h2>
       <div class="col-travels d-flex">
 
            <div class="place d-flex flex-column">
             <span>Local:</span>
-            <select name="select" class="form-select" id="select-local">
-              <option value="jeri" onclick="jeri()" selected>Jericoacoara</option>
-              <option value="chico" onclick="chico()">Chico do Carangueijo</option>
-              <option value="canoa" onclick="canoa()" id="canoa">Canoa Quebrada</option>
+            <select name="select" class="form-select" id="select-local" disabled="disabled">
+              <option value="jeri" onclick="jeri()" selected>Rio Grande do Norte</option>
+              <option value="chico" onclick="chico()">Juazeiro do Norte</option>
+              <option value="canoa" onclick="canoa()" id="canoa">Juazeiro do Norte</option>
             </select>
            </div>
 
            <div class="place d-flex flex-column">
             <span>Ida:</span>
-            <input id="ida" class="form-control" type="text" disabled="disabled" value="30/09">
+            <input id="ida" class="form-control" type="text" disabled="disabled" value="03/12/2021">
            </div>
 
            <div class="place d-flex flex-column">
             <span>Volta:</span>
-            <input id="volta" class="form-control" type="text" disabled="disabled" value="30/09/2021">
+            <input id="volta" class="form-control" type="text" disabled="disabled" value="05/12/2021">
            </div>
 
            <div class="veiculo d-flex flex-column">
@@ -140,6 +140,91 @@
 </div>
 
 </section>
+
+
+<main class="container">
+ 
+  <section class="excursao">
+
+      <h2>Excursões:</h2>
+
+       <span>Lorem ipsum dolor sit amet consectetur ...</span>
+
+          <div class="row-excursao d-flex">
+              
+             <div class="col-excursao d-flex">
+
+                <div class="local">
+                   <div class="col-img">
+                      <img src="img/serra-martins.jpg" alt="">
+                   </div>
+                   <div class="info">
+                    <div class="d-flex justify-content-between px-2">
+                         <span>Serra de Martins</span>
+                         <span>RN</span>
+                      </div>
+                      <div class="d-flex justify-content-between px-2">
+                        <span>Ida:</span>
+                        <span>26/09/2021</span>
+                     </div>
+                     <div class="d-flex justify-content-between px-2">
+                      <span>Volta:</span>
+                      <span>30/09/2021</span>
+                   </div>
+                   </div>
+                 </div>
+            <i class="fas fa-plus"></i>
+                <div class="local">
+                   <div class="col-img">
+                        <img src="img/serra-martins.jpg" alt="">
+                   </div>
+                   <div class="info">
+                        <div class="d-flex justify-content-between px-2">
+                            <span>Praia de Tibau</span>
+                            <span>RN</span>
+                        </div>
+                        <div class="d-flex justify-content-between px-2">
+                          <span>Ida:</span>
+                          <span>26/09/2021</span>
+                       </div>
+                       <div class="d-flex justify-content-between px-2">
+                        <span>Volta:</span>
+                        <span>30/09/2021</span>
+                     </div>
+                   </div>
+                </div>
+
+             </div> 
+            
+             <div class="col-excursao-2">
+
+              <div class="local">
+                <div class="col-img">
+                     <img src="img/serra-martins.jpg" alt="">
+                </div>
+                <div class="info">
+                     <div class="d-flex justify-content-between px-2">
+                         <span>Praia de Tibau</span>
+                         <span>RN</span>
+                     </div>
+                     <div class="d-flex justify-content-between px-2">
+                       <span>Ida:</span>
+                       <span>26/09/2021</span>
+                    </div>
+                    <div class="d-flex justify-content-between px-2">
+                     <span>Volta:</span>
+                     <span>30/09/2021</span>
+                  </div>
+                </div>
+             </div>
+
+             </div>
+
+          </div>
+
+  </section>
+  
+</main>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>

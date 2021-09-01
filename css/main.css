@@ -1,0 +1,89 @@
+main{
+	padding: 6rem 2rem 0rem 2rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+main h2{
+	color:  rgba(47, 54, 64,1.0);
+	-webkit-font-family: :'Fredoka One', cursive;;
+    -moz-font-family: :'Fredoka One', cursive;;
+    -ms-font-family: :'Fredoka One', cursive;;
+    -o-font-family: :'Fredoka One', cursive;;
+       font-family: :'Fredoka One', cursive;;
+     font-weight: 900;
+
+}
+
+main span{
+	letter-spacing: .2rem;
+}
+
+.row-excursao{
+	padding: 2rem 0rem;
+
+}
+
+
+.col-excursao img,
+.col-excursao-2 img{
+	width: 100%;
+	background-size: cover;
+}
+
+.col-img,
+.col-img img{
+	border-radius: 20px 20px 0px 0px;
+}
+
+.col-img{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+
+}
+
+.col-excursao,
+.col-excursao-2{
+	width: 75%;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255,.7);
+    gap: 1rem;
+    margin: 1.5rem;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+.col-excursao-2{
+	width: 35%;
+}
+
+.col-excursao i{
+	margin: auto;
+	color: rgba(47, 54, 64,1.0) !important;
+}
+
+.info{
+	background-color: rgba(189, 195, 199,1.0);
+	border-radius: 0px 0px 20px 20px;
+
+}
+
+.local{
+	border-radius: 20px 20px 20px 20px;
+	transition: .5s;
+}
+
+.local:hover{
+	box-shadow: 2px 2px 10px black;
+	transition: .5s;
+}
+
+.info span{
+	letter-spacing: normal;
+}
+
+.info div{
+	line-height: 3;
+}
+
