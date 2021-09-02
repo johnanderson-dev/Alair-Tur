@@ -33,7 +33,7 @@ main span{
 
 .col-img,
 .col-img img{
-	border-radius: 20px 20px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
 }
 
 .col-img{
@@ -47,11 +47,21 @@ main span{
 .col-excursao-2{
 	width: 75%;
     padding: 2rem;
-    background-color: rgba(255, 255, 255,.7);
+    background-color: rgba(255, 255, 255,0);
     gap: 1rem;
     margin: 1.5rem;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 5px 5px 5px 5px;
+    transition: 1s;
+    box-shadow: 1px 1px 2px gray,
+                -1px -1px 2px gray;
 }
+
+.col-excursao:hover,
+.col-excursao-2:hover{
+    box-shadow: 2px 2px 20px #636e72;
+    transition: 1s;
+}
+	
 
 
 .col-excursao-2{
@@ -59,25 +69,18 @@ main span{
 }
 
 .col-excursao i{
-	margin: auto;
+	margin: auto 1.5rem;
 	color: rgba(47, 54, 64,1.0) !important;
 }
 
 .info{
-	background-color: rgba(189, 195, 199,1.0);
-	border-radius: 0px 0px 20px 20px;
-
+	background-color: white;
+	border-radius: 0px 0px 5px 5px;
+    color: gba(52, 73, 94,1.0);
 }
 
-.local{
-	border-radius: 20px 20px 20px 20px;
-	transition: .5s;
-}
 
-.local:hover{
-	box-shadow: 2px 2px 10px black;
-	transition: .5s;
-}
+
 
 .info span{
 	letter-spacing: normal;
@@ -87,3 +90,28 @@ main span{
 	line-height: 3;
 }
 
+
+
+.more span{
+	padding: .5rem 1.5rem;
+	border: solid 2px #34495e;
+	border-radius: 5px;
+	margin-top: 4rem;
+	font-size: 1.5em;
+	transition: 1s;
+}
+
+.more span:hover{
+	background-color: #34495e;
+}
+
+
+.more span > a{
+	text-decoration: none;
+	color: #34495e !important;
+	transition: 1s;
+}
+
+.more span > a:hover{
+	color: white !important;
+}
