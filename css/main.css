@@ -115,3 +115,51 @@ main span{
 .more span > a:hover{
 	color: white !important;
 }
+
+
+@media (max-width: 1400px){
+	.row-excursao{
+		display: block !important;
+	}
+
+	.col-excursao{
+		margin: auto;
+	}
+
+	.col-excursao-2{
+		display: none;
+	}
+}
+
+@media (max-width: 768px){
+
+	 body{
+	 	overflow-y: scroll;
+	 }
+     
+     .element{
+     	flex-direction: column;
+     }
+
+     .col-excursao i{
+	    margin: 1.5rem auto;
+    }
+}
+
+@media (max-width: 470px){
+  
+  .info span{
+  	font-size: .9rem;
+  }
+
+  .more span > a{
+     font-size: .9rem;
+  }
+
+}
+
+@media (max-width: 380px){
+   .more span > a{
+     font-size: .7rem;
+  }
+}	
