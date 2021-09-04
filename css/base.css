@@ -6,6 +6,7 @@
 
 body{
 	overflow-x: hidden;
+     overflow-y: scroll !important;
     background-color: rgba(255, 190, 118,1.0);
 }
 
@@ -77,10 +78,13 @@ i:hover{
 
 
 @media (max-width: 1366px){
+
       
       h1{
       	font-size: 1.5em !important;
       }
+
+
 
 }
 
