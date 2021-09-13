@@ -51,6 +51,10 @@ i:hover{
 	transition: .5s;
 }
 
+section{
+    height: 100vh;
+}
+
 
 
 .hide-menu-btn,
