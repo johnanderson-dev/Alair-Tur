@@ -63,5 +63,35 @@
 
 .gallery-hover:hover{
 	background-color: #34495e;
-	 opacity: .8;
+	opacity: .8;
 }
+
+
+@media (max-width: 768px){
+    section{
+       height: auto;
+    }
+
+    .galeria{
+	    padding: 10rem 0;
+    }
+
+    .gallery-hover h3{
+	   font-size: 1em;
+	   line-height: 1.5;
+     }
+
+    .gallery-hover span{
+	   display: none;
+}
+
+@media (max-width: 450px){
+
+    .gallery-hover h3{
+	   display: none;
+     }
+
+
+
+}
+

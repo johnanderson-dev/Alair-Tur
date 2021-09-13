@@ -181,8 +181,13 @@ section{
       left: 0;
     }
       
-}
 
+
+@media (max-width: 768px){
+    section{
+       height: auto;
+    }
+}
 
 @media (max-width: 640px){
       
