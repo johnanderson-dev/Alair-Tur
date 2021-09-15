@@ -19,6 +19,12 @@ main span{
 	letter-spacing: .2rem;
 }
 
+#excursao,
+#galeria,
+#info{
+    padding-top: 8rem;
+}
+
 .row-excursao{
 	padding: 2rem 0rem;
 
