@@ -1,0 +1,22 @@
+.father-covid{
+	padding: 3rem 1rem;
+}
+.child-covid-1{
+	width: 50%;
+	border:  solid 2px red;
+	margin-right: 2rem;
+}
+
+.child-covid-2{
+	width: 40%;
+	border:  solid 2px red;
+}
+
+.child-covid-2 img{
+	width: 100%;
+}
+
+.child-covid-1{
+	font-size: 1.5rem;
+
+}

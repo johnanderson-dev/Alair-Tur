@@ -57,12 +57,14 @@ section{
 
 #excursao,
 #galeria,
-#info{
+#info,
+#covid{
     padding-top: 8rem;
 }
 
 .father-gallery,
-.father-info{
+.father-info,
+.father-covid{
     margin-top: 2rem;
     border-radius: 5px 5px 5px 5px;
     transition: 1s;
