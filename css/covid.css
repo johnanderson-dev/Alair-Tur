@@ -1,15 +1,18 @@
+#covid{
+	padding-top: 10rem;
+}
+
 .father-covid{
-	padding: 3rem 1rem;
+	margin-top: 5rem;
+	padding: 4rem 1.5rem;
 }
 .child-covid-1{
-	width: 50%;
-	border:  solid 2px red;
+	width: 60%;
 	margin-right: 2rem;
 }
 
 .child-covid-2{
 	width: 40%;
-	border:  solid 2px red;
 }
 
 .child-covid-2 img{
@@ -20,3 +23,42 @@
 	font-size: 1.5rem;
 
 }
+
+@media (max-width: 1200px){
+
+  .child-covid-1{
+	font-size: 1.2rem;
+
+   }
+
+}
+
+@media (max-width: 992px){
+
+   #covid{
+	  position: relative;
+	  top: 55rem;
+   }
+
+   .father-covid{
+      flex-direction: column;
+   }
+
+   .child-covid-1{
+	   width: 100%;
+	   margin-bottom: 2rem;
+    }
+
+    .child-covid-2{
+        width: 90%;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 768px){
+       
+     #covid{
+	  top: 0rem;
+   }
+}	
