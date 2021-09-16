@@ -1,0 +1,48 @@
+.rodape{
+	background-color: #34495e;
+	padding: 6rem;
+}
+
+.col-rodape{
+	width: 25%;
+	border-right: solid 2px white;
+	margin-right: 6rem;
+	padding-right: 2rem;
+}
+
+.col-rodape:nth-child(4){
+	border-right: none;
+}
+
+.col-rodape h4{
+	color: rgba(255, 190, 118,1.0);
+	font-size: 2rem;
+	line-height: 2;
+}
+
+.col-rodape span{
+	color: white;
+}
+
+.new-rodape{
+	background-color: #2c3e50;
+	color: white;
+	padding: .5rem 0;
+}
+
+.col-newr a,
+.col-newr i{
+	text-decoration: none;
+	color: white !important;
+	margin: auto 1rem;
+	transition: 1s;
+}
+
+.col-newr i{
+	font-size: 1.4rem;
+}
+
+.col-newr a:hover,
+.col-newr i:hover{
+    color:  gray !important;
+}
