@@ -1,6 +1,6 @@
 .rodape{
 	background-color: #34495e;
-	padding: 6rem;
+	padding: 6rem 2rem 6rem 4rem;
 }
 
 .col-rodape{
@@ -8,10 +8,12 @@
 	border-right: solid 2px white;
 	margin-right: 6rem;
 	padding-right: 2rem;
+
 }
 
 .col-rodape:nth-child(4){
 	border-right: none;
+	margin: 0;
 }
 
 .col-rodape h4{
@@ -45,4 +47,82 @@
 .col-newr a:hover,
 .col-newr i:hover{
     color:  gray !important;
+}
+
+@media (max-width: 1280px){
+
+   .col-rodape h4{
+	font-size: 1.5rem;
+    }
+
+    .col-rodape span{
+	  font-size: .9rem;
+    }
+}
+
+@media (max-width: 992px){
+   .rodape,
+   .new-rodape{
+	  position: relative;
+	  top: 90rem;
+   }
+}	
+
+@media (max-width: 768px){
+   .rodape,
+   .new-rodape{
+	  position: relative;
+	  top: 10rem;
+   }
+   
+   .rodape{
+   	flex-direction: column;
+   }
+
+   .col-rodape{
+	width: 100%;
+	border-right: none;
+	border-bottom: solid 2px white;
+	margin-bottom: 4rem;
+	padding-bottom: 2rem;
+
+   }
+
+   .new-rodape{
+   	padding: 0rem 1rem;
+   }
+
+}	
+
+
+@media (max-width: 640px){
+     
+   .col-newr a,
+   .col-newr i{
+	 margin: auto .2rem;
+	 font-size: 1rem;
+    }
+
+    .col-newr a, span{
+    	font-size: .8rem;
+    }
+
+    .new-rodape{
+   	padding: 1rem;
+   }
+
+   .col-newr:nth-child(3){
+   	display: none;
+   }
+
+}	
+@media (max-width: 420px){
+    .col-newr a:nth-child(3){
+    	display: none;
+    }
+
+     .col-newr a,
+   .col-newr i{
+	 margin: auto .5rem;
+	}
 }
