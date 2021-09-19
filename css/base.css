@@ -1,67 +1,26 @@
-* , html{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
-
-body{
-	overflow: hidden;
-     background-color: rgba(255, 190, 118,1.0);
-}
-
-h1{
-	letter-spacing: .5rem;
-	font-size: 2.3rem !important;
-	color: rgba(244,164,96,1);
-	font-weight: 500 !important;
-	position: relative;
-	top: .3rem;
-	border: ;
-}
-
-header{
-	background-color: #34495e;
-    position: fixed;
-    z-index: 1000;
-    width: 100%;
-}
+/* =================================================================== */
+/*
+/* 1 - Sections
+/* 2 - Divs Pais
+/*
+/* =================================================================== */
 
 
-ul{
-	display: flex;
-    gap: 3rem	
-}
+/* 
+/* . Sections
+/* =================================================================== */
 
-a{
-	letter-spacing: .2rem;
-	color: rgba(244,164,96,1) !important;
-}
-
-a:hover{
-	color: rgba(163, 110, 64, .7) !important;
-}
-
-i{
-	font-size: 2rem;
-	color: rgba(163, 110, 64, .7) !important;
-	transition: .5s;
-	cursor: pointer;
-}
-
-i:hover{
-	color: rgba(244,164,96,1) !important;
-	transition: .5s;
-}
-
-section{
-    height: 100vh;
-}
 
 #excursao,
 #galeria,
 #info{
-    padding-top: 8rem;
+    padding-top: 6rem;
 }
+
+/* 
+/* . Divs Pais
+/* =================================================================== */
+
 
 .father-gallery,
 .father-info,
@@ -73,137 +32,21 @@ section{
                 -1px -1px 2px gray;
 }
 
-
-.hide-menu-btn,
-.show-menu-btn{
-   position: absolute;
-   top: -1.1rem;
-   transition: 1s;
-   font-size: 3em;
-   cursor: pointer;
-   display: none;
-}
-
-.hide-menu-btn:hover,
-.show-menu-btn:hover{
-   
-   transition: 1s;    
-}
-
-#chk{
-  display: none;
-}
-
-
-
-
-
-@media (max-width: 1366px){
-
-      
-      h1{
-      	font-size: 1.5em !important;
-      }
-
-
-
-}
-
-@media (max-width: 1200px){
-      
-      i{
-	    font-size: 1.5rem;
-       }
-  
-       h1{
-      	 font-size: 1em !important;
-      	 letter-spacing: .3rem;
-       }
-
-      .wrap-icon{
-		display: none !important;
-	   }
-}
-
-
 @media (max-width: 992px){
-
-	  body{
-	  	overflow: hidden;
-	  }
-
-	  header{
-	  	padding: 0 1rem;
-	  }
-
-
-	  h1{
-      	font-size: 1.3em !important;
-      }
-
-      nav{
-      	position: fixed !important;
-        left: 100%;
-        width: 100vw;
-      	height: 100vh;
-      	z-index: 1;
-      	background-color: #34495e;
-      	transition: 2s;
-      }
-
-      li{
-      	width: 100vw;
-      	display: flex;
-      	justify-content: center;
-      }
-
-      .show-menu-btn,
-      .hide-menu-btn{
-      	display: block !important;
-      }
-
-
-      .show-menu-btn,
-      .hide-menu-btn{
-      	position: absolute;
-      	right: 2rem;
-      	top: 0rem;
-      }
-
-      .show-menu-btn{
-      	 top: -1.1rem;
-      }
-
-      .show-menu-btn i{
-      	font-size: .6em;
-      }
-
-      .hide-menu-btn i{
-      	font-size: 2rem;
-      }
-
-      .show-menu-btn i,
-      .hide-menu-btn i{
-        color: rgba(244,164,96,.7) !important;
-        transition: .2s;
-      }
-
-      .show-menu-btn i:hover,
-      .hide-menu-btn i:hover{
-        color: rgba(244,164,96,1) !important;
-        transition: .2s;
-      }
-
-       #chk:checked ~ nav{
-      left: 0;
-    }
-      
-
-
-
-@media (max-width: 640px){
-      
-      h1{
-      	font-size: 1em !important;
-      }
+    
+#excursao,
+#galeria,
+#info{
+    padding-top: 0rem;
 }
+}
+
+
+
+
+
+
+
+
+
+

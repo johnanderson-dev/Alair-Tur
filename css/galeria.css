@@ -1,8 +1,20 @@
+/* =================================================================== */
+/*
+/* 1 - Galeria
+/* 2 - Media Queries
+/*
+/* =================================================================== */
+
+
+
+/* 
+/* . Galeria
+/* =================================================================== */
+
+
 .galeria{
 	padding: 2rem;
 }
-
-
 
 .father-gallery:hover{
 	box-shadow: 2px 2px 20px #636e72;
@@ -13,7 +25,7 @@
 .grandson-gallery,
 .grandson-gallery-2{
 	position: relative;
-	width: 30.5%;
+	width: 23%;
 	margin-bottom: 0;
 }
 
@@ -23,7 +35,7 @@
 }
 
 .grandson-gallery-2{
-	width: 40.7%;
+	width: 30.7%;
 }
 
 
@@ -61,14 +73,17 @@
 }
 
 
+/* 
+/* . Galeria
+/* =================================================================== */
+
+
+
 @media (max-width: 768px){
     section{
        height: auto;
     }
 
-    .galeria{
-	    padding: 10rem 0;
-    }
 
     .gallery-hover h3{
 	   font-size: 1em;

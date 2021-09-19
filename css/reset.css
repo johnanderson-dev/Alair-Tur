@@ -1,0 +1,100 @@
+/* =================================================================== */
+/*
+/* 1 - Resetando Tags
+/* 2 - Resetando Navegadores Antigos
+/* 3 - Configurações Básicas para o site
+/*
+/* =================================================================== */
+
+
+/* 
+/* . Resetando Tags
+/* =================================================================== */
+
+
+html{
+  overflow: hidden !important;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, b, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+
+/* 
+/* . Resetando Navegadores Antigos
+/* =================================================================== */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/* 
+/* . Configurações Básicas para o site
+/* =================================================================== */
+
+
+
+
+body{
+     overflow: hidden;
+     background-color: rgba(255, 190, 118,1.0);
+}
+
+section{
+    height: 100vh;
+}
+
+@media (max-width: 992px){
+    html{
+        overflow-y: scroll !important;
+    }
+
+    section{
+        height: auto;
+        margin-bottom: 10rem;
+    }
+}

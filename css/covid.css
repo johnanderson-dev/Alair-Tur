@@ -1,9 +1,21 @@
+/* =================================================================== */
+/*
+/* 1 - Section Covid
+/* 2 - Media Queries
+/*
+/* =================================================================== */
+
+
+/* 
+/* . Section Covid
+/* =================================================================== */
+
 #covid{
 	padding-top: 10rem;
 }
 
 .father-covid{
-	margin-top: 5rem;
+	margin-top: 2rem;
 	padding: 4rem 1.5rem;
 }
 .child-covid-1{
@@ -24,6 +36,12 @@
 
 }
 
+
+/* 
+/* . Media Queries
+/* =================================================================== */
+
+
 @media (max-width: 1200px){
 
   .child-covid-1{
@@ -35,10 +53,7 @@
 
 @media (max-width: 992px){
 
-   #covid{
-	  position: relative;
-	  top: 55rem;
-   }
+   
 
    .father-covid{
       flex-direction: column;

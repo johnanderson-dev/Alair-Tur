@@ -1,6 +1,27 @@
+/* =================================================================== */
+/*
+/* 1 - Tag Main
+/* 2 - Main Text
+/*
+/* =================================================================== */
+
+
+/* 
+/* . Tag Main
+/* =================================================================== */
+
+
 main{
 	padding: 6rem 2rem 0rem 2rem;
 }
+
+
+
+/* 
+/* . Tag Main
+/* =================================================================== */
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
@@ -10,162 +31,14 @@ main h2{
     -moz-font-family: :'Fredoka One', cursive;;
     -ms-font-family: :'Fredoka One', cursive;;
     -o-font-family: :'Fredoka One', cursive;;
-       font-family: :'Fredoka One', cursive;;
-     font-weight: 900;
-
+    font-family: :'Fredoka One', cursive;;
+    font-weight: 900;
+    font-size: 2.5rem;
+	line-height: 2;
 }
 
 main span{
 	letter-spacing: .2rem;
 }
 
-#excursao,
-#galeria,
-#info{
-    padding-top: 8rem;
-}
 
-.row-excursao{
-	padding: 2rem 0rem;
-
-}
-
-
-.col-excursao img,
-.col-excursao-2 img{
-	width: 100%;
-	background-size: cover;
-}
-
-.col-img,
-.col-img img{
-	border-radius: 5px 5px 0px 0px;
-}
-
-.col-img{
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-
-}
-
-.col-excursao,
-.col-excursao-2{
-	width: 75%;
-    padding: 2rem;
-    background-color: rgba(255, 255, 255,0);
-    gap: 1rem;
-    margin: 1.5rem;
-    border-radius: 5px 5px 5px 5px;
-    transition: 1s;
-    box-shadow: 1px 1px 2px gray,
-                -1px -1px 2px gray;
-}
-
-.col-excursao:hover,
-.col-excursao-2:hover{
-    box-shadow: 2px 2px 20px #636e72;
-
-}
-	
-
-
-.col-excursao-2{
-	width: 35%;
-}
-
-.col-excursao i{
-	margin: auto 1.5rem;
-	color: rgba(47, 54, 64,1.0) !important;
-}
-
-.info{
-	background-color: white;
-	border-radius: 0px 0px 5px 5px;
-    color: gba(52, 73, 94,1.0);
-}
-
-
-
-
-.info span{
-	letter-spacing: normal;
-}
-
-.info div{
-	line-height: 3;
-}
-
-
-
-.more span{
-	padding: .5rem 1.5rem;
-	border: solid 2px #34495e;
-	border-radius: 5px;
-	margin-top: 4rem;
-	font-size: 1.5em;
-	transition: 1s;
-}
-
-.more span:hover{
-	background-color: #34495e;
-}
-
-
-.more span > a{
-	text-decoration: none;
-	color: #34495e !important;
-	transition: 1s;
-}
-
-.more span > a:hover{
-	color: white !important;
-}
-
-
-@media (max-width: 1400px){
-	.row-excursao{
-		display: block !important;
-	}
-
-	.col-excursao{
-		margin: auto;
-	}
-
-	.col-excursao-2{
-		display: none;
-	}
-}
-
-@media (max-width: 768px){
-
-	 body{
-	 	
-	 }
-     
-     .element{
-     	flex-direction: column;
-     }
-
-     .col-excursao i{
-	    margin: 1.5rem auto;
-    }
-}
-
-@media (max-width: 470px){
-  
-  .info span{
-  	font-size: .9rem;
-  }
-
-  .more span > a{
-     font-size: .9rem;
-  }
-
-}
-
-@media (max-width: 380px){
-   .more span > a{
-     font-size: .7rem;
-  }
-}	
