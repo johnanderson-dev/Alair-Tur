@@ -128,7 +128,6 @@ figure{
 @media (max-width:  1200px){
 
     .next-travels{
-      border:  solid 2px red;
       height: 60vh;
     }
 
@@ -155,7 +154,6 @@ figure{
 @media (max-width:  1440px){
 
     .next-travels{
-      border:  solid 2px blue;
       height: 50vh;
     }
 } 
