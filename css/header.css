@@ -13,18 +13,21 @@
 /* . Header e Logo
 /* =================================================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 header{
-	background-color: #34495e;
+	  background-color: #34495e;
     position: fixed;
     z-index: 1000;
     width: 100%;
+    padding: 1rem auto;
 }
 
 
 header h1{
     letter-spacing: .5rem;
     font-size: 2.3rem !important;
+    font-family: 'Lobster', cursive;
     color: rgba(244,164,96,1);
     font-weight: 500 !important;
     position: relative;
@@ -49,6 +52,12 @@ header a{
 
 header a:hover{
     color: rgba(163, 110, 64, .7) !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+.navbar-nav{
+  font-family: 'Balsamiq Sans', cursive;
 }
 
 

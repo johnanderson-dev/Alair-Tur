@@ -17,6 +17,7 @@
 	padding: 6rem 2rem 6rem 4rem;
 }
 
+
 .col-rodape{
 	width: 25%;
 	border-right: solid 2px white;
@@ -36,8 +37,29 @@
 	line-height: 2;
 }
 
-.col-rodape span{
+.col-rodape span,
+address{
 	color: white;
+	line-height: 1.2;
+	position: relative;
+    left: .5rem;
+}
+
+.col-rodape address{
+	line-height: 1.4;
+	color: white;
+}
+
+.col-rodape a{
+	color: white;
+	text-decoration: none;
+	opacity: .8;
+	transition: .2s;
+}
+
+.col-rodape a:hover{
+	text-decoration: underline;
+	opacity: 1;
 }
 
 .new-rodape{
@@ -62,6 +84,8 @@
 .col-newr i:hover{
     color:  gray !important;
 }
+
+
 
 
 
