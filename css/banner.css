@@ -166,6 +166,11 @@ figure{
     .next-travels{
        display: none !important;
     }
+
+    .banner{
+      position: relative;
+      top: 7.7rem;
+     }
 } 
 
 

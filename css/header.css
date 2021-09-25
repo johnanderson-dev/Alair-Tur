@@ -107,7 +107,6 @@ header #chk{
         background-color: #34495e;
         z-index: 99;
         transition: 2s;
-        border: solid 2px red;
       }
 
       header li{

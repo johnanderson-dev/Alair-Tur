@@ -14,6 +14,10 @@
 	padding-top: 10rem;
 }
 
+#covid h2{
+   line-height: 2;
+}
+
 .father-covid{
 	margin-top: 2rem;
 	padding: 4rem 1.5rem;
