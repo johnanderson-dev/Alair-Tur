@@ -8,7 +8,6 @@
 /* =================================================================== */
 
 
-
 /* 
 /* . Header e Logo
 /* =================================================================== */
@@ -18,21 +17,22 @@
 header{
 	  background-color: #34495e;
     position: fixed;
-    z-index: 1000;
-    width: 100%;
-    padding: 1rem auto;
+    padding: .5rem 1rem;
+    z-index: 98;
 }
 
 
 header h1{
-    letter-spacing: .5rem;
-    font-size: 2.3rem !important;
-    font-family: 'Lobster', cursive;
-    color: rgba(244,164,96,1);
-    font-weight: 500 !important;
     position: relative;
     top: .3rem;
+    letter-spacing: .5rem;
+    font-size: 3rem !important;
+    font-family: 'Lobster', cursive;
+    color: #f7d08c;
+    font-weight: 500 !important;
+    z-index: 100;
 }
+
 
 /* 
 /* . Menu
@@ -40,18 +40,19 @@ header h1{
 
 
 
-header ul{
-    display: flex;
+.navbar ul{
     gap: 3rem   
 }
 
-header a{
+.nav-item a{
     letter-spacing: .2rem;
-    color: rgba(244,164,96,1) !important;
+    color: #f7d08c !important;
+    font-size: 1.2em;
 }
 
-header a:hover{
-    color: rgba(163, 110, 64, .7) !important;
+.nav-item a:hover{
+    color: rgba(247, 208, 140, .7) !important;
+    text-decoration: underline;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
@@ -62,21 +63,9 @@ header a:hover{
 
 
 /* 
-/* . Feeds
+/* . Menu Responsivo
 /* =================================================================== */
 
-
-header i{
-    font-size: 2rem;
-    color: rgba(163, 110, 64, .7) !important;
-    transition: .5s;
-    cursor: pointer;
-}
-
-header i:hover{
-    color: rgba(244,164,96,1) !important;
-    transition: .5s;
-}
 
 header .hide-menu-btn,
 header .show-menu-btn{
@@ -104,52 +93,21 @@ header #chk{
 /* =================================================================== */
 
 
-@media (max-width: 1366px){
-      
-      header h1{
-        font-size: 1.5em !important;
-      }
-}
-
-
-@media (max-width: 1200px){
-      
-      header i{
-        font-size: 1.5rem;
-       }
-  
-       header h1{
-         font-size: 1em !important;
-         letter-spacing: .3rem;
-       }
-
-      header .wrap-icon{
-        display: none !important;
-       }
-}
-
-
 
 @media (max-width: 992px){
 
 
-      header{
-        padding: .5rem 1rem;
-      }
-
-
-      header h1{
-        font-size: 1.5em !important;
-      }
 
       header nav{
         position: fixed !important;
+        top: 0;
         left: 100%;
         width: 100vw;
         height: 100vh;
-        z-index: 1;
         background-color: #34495e;
+        z-index: 99;
         transition: 2s;
+        border: solid 2px red;
       }
 
       header li{
@@ -169,11 +127,11 @@ header #chk{
       }
  
       header .show-menu-btn{
-        top: .7rem;
+        top: 1.2rem;
       }
 
       header .show-menu-btn i{
-         font-size: .8em;
+         font-size: 1em;
       }
       
      
@@ -184,13 +142,13 @@ header #chk{
 
       header .show-menu-btn i,
       header .hide-menu-btn i{
-        color: rgba(244,164,96,.7) !important;
+        color: rgba(247, 208, 140, 1) !important;
         transition: .2s;
       }
 
       header .show-menu-btn i:hover,
       header .hide-menu-btn i:hover{
-        color: rgba(244,164,96,1) !important;
+        color: rgba(247, 208, 140, .7) !important;
         transition: .2s;
       }
 
@@ -199,22 +157,5 @@ header #chk{
     }
 }    
 
-@media (max-width: 768px){
-
-  header h1{
-    font-size: 1.3em !important;
-  }
-
-  header .show-menu-btn i{
-    position: relative;
-    bottom: .2rem;
-    font-size: .8em;
- }
-
- header .hide-menu-btn i{
-  font-size: 3.5rem;
-}
-
-}
 
 
