@@ -1,0 +1,304 @@
+/* =================================================================== */
+/*
+/* 1 - @media (min-width:320px)  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+/* 2 - @media (min-width:480px)  /* smartphones, Android phones, landscape iPhone */ 
+/* 3 - @media (min-width:600px)  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+/* 4 - @media (min-width:801px)  /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+/* 5 - @media (min-width:1025px) /* big landscape tablets, laptops, and desktops */ 
+/* 6 - @media (min-width:1281px) /* hi-res laptops and desktops */ 
+/*
+/* =================================================================== */
+
+
+
+
+@media (max-width:  1200px){
+   
+    .next-travels{
+      height: 60vh;
+    }
+
+    .row-travels h2{
+        font-size: 2.5em;
+    }
+
+     input{
+        width: 120px !important;
+     } 
+    
+     input#veiculo{
+       width: 180px !important;
+     }
+
+     select{
+       width: 150px !important;
+     }
+
+}
+ 
+
+
+@media (max-width:  1440px){
+
+    .next-travels{
+      height: 50vh;
+    }
+
+    .row-excursao{
+		display: block !important;
+	}
+
+	.col-excursao{
+		margin: auto;
+	}
+
+	.col-excursao-2{
+		display: none;
+	}
+} 
+
+
+
+@media (max-width: 1280px){
+    .grandsan-info-1{
+        width: 300%;
+     }
+ 
+     .grandsan-info-4{
+        width: 220%;
+      }
+
+      .child-covid-1{
+        font-size: 1.2rem;
+    
+       }
+
+       .col-rodape h4{
+        font-size: 1.5rem;
+        }
+    
+        .col-rodape span{
+          font-size: .9rem;
+        }
+ }
+
+
+@media (max-width:  992px){
+
+    .next-travels{
+       display: none !important;
+    }
+
+    .banner{
+      position: relative;
+      top: 7.7rem;
+     }
+
+     .element{
+        flex-direction: column;
+    }
+
+    .col-excursao i{
+       margin: 1.5rem auto;
+   }
+
+   .child-info{
+    flex-direction: column;
+}
+
+.grandsan-info-1,
+.grandsan-info-4{
+    width: 100%;
+    margin: 0;
+ }
+
+ .grandsan-info-1,
+ .grandsan-info-3{
+    margin-bottom: 2rem;
+ }
+
+ .father-covid{
+    flex-direction: column;
+ }
+
+ .child-covid-1{
+     width: 100%;
+     margin-bottom: 2rem;
+  }
+
+  .child-covid-2{
+      width: 90%;
+      margin: auto;
+  }
+
+  header nav{
+    position: fixed !important;
+    top: 0;
+    left: 100%;
+    width: 100vw;
+    height: 100vh;
+    background-color: #34495e;
+    z-index: 99;
+    transition: 2s;
+  }
+
+  header li{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    margin: 0rem 0;
+  }
+
+  header .show-menu-btn,
+  header .hide-menu-btn{
+    display: block !important;
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+  }
+
+  header .show-menu-btn{
+    top: 1.2rem;
+  }
+
+  header .show-menu-btn i{
+     font-size: 1em;
+  }
+  
+ 
+
+  header .hide-menu-btn i{
+    font-size: 4rem;
+  }
+
+  header .show-menu-btn i,
+  header .hide-menu-btn i{
+    color: rgba(247, 208, 140, 1) !important;
+    transition: .2s;
+  }
+
+  header .show-menu-btn i:hover,
+  header .hide-menu-btn i:hover{
+    color: rgba(247, 208, 140, .7) !important;
+    transition: .2s;
+  }
+
+  header #chk:checked ~ nav{
+     left: 0;
+}
+} 
+
+
+
+
+@media (max-width: 768px){
+    section{
+       height: auto;
+    }
+
+
+    .gallery-hover h3{
+	   font-size: 1em;
+	   line-height: 1.5;
+     }
+
+    .gallery-hover span{
+	   display: none;
+    }
+
+    #covid{
+        top: 0rem;
+     }
+
+     
+    .rodape{
+        flex-direction: column;
+    }
+ 
+    .col-rodape{
+     width: 100%;
+     border-right: none;
+     border-bottom: solid 2px white;
+     margin-bottom: 4rem;
+     padding-bottom: 2rem;
+ 
+    }
+ 
+    .new-rodape{
+        padding: 0rem 1rem;
+    }
+ 
+}
+
+ 
+@media (max-width: 640px){
+      
+    .col-newr a,
+    .col-newr i{
+      margin: auto .2rem;
+      font-size: 1rem;
+     }
+ 
+     .col-newr a, span{
+         font-size: .8rem;
+     }
+ 
+     .new-rodape{
+        padding: 1rem;
+    }
+ 
+    .col-newr:nth-child(3){
+        display: none;
+    }
+ 
+ }	
+
+@media (max-width: 470px){
+  
+  .info span{
+  	font-size: .9rem;
+  }
+
+  .more span > a{
+     font-size: .9rem;
+  }
+
+  .gallery-hover h3{
+    display: none;
+  }
+
+  .col-newr a:nth-child(3){
+    display: none;
+}
+
+ .col-newr a,
+.col-newr i{
+ margin: auto .5rem;
+}
+
+
+}
+
+@media (max-width: 380px){
+   .more span > a{
+     font-size: .7rem;
+  }
+}	
+
+ 
+/* 
+/* . Media Queries
+/* =================================================================== */
+
+
+
+@media (max-width: 992px){
+
+
+
+    
+}    
+
+
+

@@ -1,7 +1,12 @@
 /* =================================================================== */
 /*
 /* 1 - Tag Main
-/* 2 - Main Text
+/* 2 - Section Slider
+/* 3 - Section Excursão
+/* 4 - Section Galeria
+/* 5 - Section Informações
+/* 6 - Section Covid
+/* 7 - Tag Rodape
 /*
 /* =================================================================== */
 
@@ -14,13 +19,6 @@
 main{
 	padding: 6rem 2rem 0rem 2rem;
 }
-
-
-
-/* 
-/* . Tag Main
-/* =================================================================== */
-
 
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
@@ -40,5 +38,452 @@ main h2{
 main span{
 	letter-spacing: .2rem;
 }
+
+
+
+
+/* 
+/* . Section Slider
+/* =================================================================== */
+.banner{
+    position: relative;
+    top: 8.7rem;
+   }
+   
+   .slider{
+     width: 300%;
+     padding-bottom: 0;
+   }
+   
+   .slider img{
+     animation: slider 20s infinite ease-out;
+   }
+   
+   figure{
+     width: 33.4%;
+   }
+   
+   
+   /* 
+   /* . Section Slider - Keyframe
+   /* =================================================================== */
+   
+   @keyframes slider{
+     0%{
+          left: 0%;
+     }
+   
+     30%{
+       left: 0%;
+     }
+   
+     35%{
+          left: -100%;
+     }
+   
+     65%{
+       left: -100%;
+     }
+       
+       70%{
+           left: -200%;
+     }
+   
+     95%{
+       left: -200%;
+     }
+   
+     100%{
+           left: 0%;
+     }
+   }
+   
+   
+   /* 
+   /* . Section Slider - Próximas Viagens
+   /* =================================================================== */
+   
+   .next-travels{
+     position: absolute;
+     top: 0rem;
+     width: 100%;
+     height: 71vh;
+     padding-top: 2.5rem;
+   }
+   
+   
+   
+   @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+   
+   .row-travels h2{
+      -webkit-font-family:: 'Righteous', cursive;;
+      -moz-font-family:: 'Righteous', cursive;;
+       -ms-font-family:: 'Righteous', cursive;;
+        -o-font-family:: 'Righteous', cursive;;
+           font-family:: 'Righteous', cursive;;
+       font-weight: 900;
+       font-size: 3rem;
+       color: white;
+       line-height: 2;
+   }
+   
+   
+   .col-travels{
+     background-color: #34495e;
+     padding: 2rem;
+     border-radius: 10px;
+   }
+   
+   @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Righteous&display=swap');
+   
+   .col-travels span{
+     color: white;
+     line-height: 3;
+     -webkit-font-family::Comfortaa', cursive;
+       -moz-font-family::Comfortaa', cursive;
+       -ms-font-family::Comfortaa', cursive;
+        -o-font-family::Comfortaa', cursive;
+           font-family::Comfortaa', cursive;
+   }
+   
+   .col-travels div{
+     margin: 0 .5rem;
+   }
+   
+   .col-travels div{
+     margin: 0 .5rem;
+   }
+   
+
+   
+/* . Section Excursão
+/* =================================================================== */
+
+.row-excursao{
+	padding: 2rem 0rem;
+}
+
+
+.col-excursao img,
+.col-excursao-2 img{
+	width: 100%;
+	background-size: cover;
+}
+
+.col-img,
+.col-img img{
+	border-radius: 5px 5px 0px 0px;
+}
+
+.col-img{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+
+}
+
+.col-excursao,
+.col-excursao-2{
+	width: 75%;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255,0);
+    gap: 1rem;
+    margin: 1.5rem;
+    border-radius: 5px 5px 5px 5px;
+    transition: 1s;
+    box-shadow: 1px 1px 2px gray,
+                -1px -1px 2px gray;
+}
+
+.col-excursao:hover,
+.col-excursao-2:hover{
+    box-shadow: 2px 2px 20px #636e72;
+
+}
+	
+
+
+.col-excursao-2{
+	width: 35%;
+}
+
+.col-excursao i{
+	margin: auto 1.5rem;
+	color: rgba(47, 54, 64,1.0) !important;
+}
+
+.info{
+	background-color: white;
+	border-radius: 0px 0px 5px 5px;
+    color: gba(52, 73, 94,1.0);
+}
+
+
+
+
+.info span{
+	letter-spacing: normal;
+}
+
+.info div{
+	line-height: 3;
+}
+
+
+
+.more span{
+	padding: .5rem 1.5rem;
+	border: solid 2px #34495e;
+	border-radius: 5px;
+	margin-top: 4rem;
+	font-size: 1.5em;
+	transition: 1s;
+}
+
+.more span:hover{
+	background-color: #34495e;
+}
+
+
+.more span > a{
+	text-decoration: none;
+	color: #34495e !important;
+	transition: 1s;
+}
+
+.more span > a:hover{
+	color: white !important;
+}
+
+
+     
+ 
+/* 
+/* . Galeria
+/* =================================================================== */
+
+
+.galeria{
+	padding: 2rem;
+}
+
+.father-gallery:hover{
+	box-shadow: 2px 2px 20px #636e72;
+}
+
+
+
+.grandson-gallery,
+.grandson-gallery-2{
+	position: relative;
+	width: 23%;
+	margin-bottom: 0;
+}
+
+.grandson-gallery img,
+.grandson-gallery-2 img{
+	width: 100%;
+}
+
+.grandson-gallery-2{
+	width: 30.7%;
+}
+
+
+.gallery-hover{
+    position: absolute;
+	top: 0;
+	border: solid 2px white;
+	width: 100%;
+	height: 100%;
+    transition: 1s;
+    opacity: 0;
+}
+
+.gallery-hover hgroup{
+     position: absolute;
+     bottom:  0rem;
+     color:  white;
+     margin: 1rem;
+}
+
+.gallery-hover h3{
+	margin: 0;
+}
+
+.gallery-hover span{
+	font-size: 1em;
+	letter-spacing: 0;
+}
+
+
+
+.gallery-hover:hover{
+	background-color: #34495e;
+	opacity: .8;
+}
+
+
+ 
+/* 
+/* . Section Informações
+/* =================================================================== */
+ 
+.father-info{
+	padding: 2rem;
+}
+
+.child-info{
+	margin: 2rem auto;
+}
+
+.grandsan-info-1{
+	width: 120%;
+}
+
+.grandsan-info-4{
+	width: 100%;
+}
+
+.grandsan-info-1{
+	margin-right: 2rem;
+}
+
+.grandsan-info-4{
+	margin-left: 2rem;
+}
+
+
+.grandsan-info-1 img,
+.grandsan-info-4 img{
+	width: 90%;
+}
+
+
+.grandsan-info h3{
+	font-size: 2rem;
+	margin-bottom: .5rem;
+}
+
+.grandsan-info p{
+	font-size: 1.2rem;
+}
+
+
+
+/* 
+/* . Section Covid
+/* =================================================================== */
+
+#covid{
+	padding-top: 10rem;
+}
+
+#covid h2{
+   line-height: 2;
+}
+
+.father-covid{
+	margin-top: 2rem;
+	padding: 4rem 1.5rem;
+}
+.child-covid-1{
+	width: 60%;
+	margin-right: 2rem;
+}
+
+.child-covid-2{
+	width: 40%;
+}
+
+.child-covid-2 img{
+	width: 100%;
+}
+
+.child-covid-1{
+	font-size: 1.5rem;
+
+}
+
+
+
+/* 
+/* . Tag Rodape
+/* =================================================================== */
+
+
+.rodape{
+	background-color: #34495e;
+	padding: 6rem 2rem 6rem 4rem;
+}
+
+
+.col-rodape{
+	width: 25%;
+	border-right: solid 2px white;
+	margin-right: 6rem;
+	padding-right: 2rem;
+
+}
+
+.col-rodape:nth-child(4){
+	border-right: none;
+	margin: 0;
+}
+
+.col-rodape h4{
+	color: rgba(255, 190, 118,1.0);
+	font-size: 2rem;
+	line-height: 2;
+}
+
+.col-rodape span,
+address{
+	color: white;
+	line-height: 1.2;
+	position: relative;
+    left: .5rem;
+}
+
+.col-rodape address{
+	line-height: 1.4;
+	color: white;
+}
+
+.col-rodape a{
+	color: white;
+	text-decoration: none;
+	opacity: .8;
+	transition: .2s;
+}
+
+.col-rodape a:hover{
+	text-decoration: underline;
+	opacity: 1;
+}
+
+.new-rodape{
+	background-color: #2c3e50;
+	color: white;
+	padding: .5rem 0;
+}
+
+.col-newr a,
+.col-newr i{
+	text-decoration: none;
+	color: white !important;
+	margin: auto 1rem;
+	transition: 1s;
+}
+
+.col-newr i{
+	font-size: 1.4rem;
+}
+
+.col-newr a:hover,
+.col-newr i:hover{
+    color:  gray !important;
+}
+
 
 
