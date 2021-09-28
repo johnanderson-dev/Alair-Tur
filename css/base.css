@@ -130,6 +130,12 @@ html{
   section{
       height: 100vh;
   }
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+  h1, h2{
+    font-family: 'Lobster', cursive;
+  }
   
   @media (max-width: 992px){
       html{

@@ -125,6 +125,7 @@ main span{
        font-size: 3rem;
        color: white;
        line-height: 2;
+       text-shadow: 5px 5px 10px black;
    }
    
    

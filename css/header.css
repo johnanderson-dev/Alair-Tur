@@ -12,10 +12,10 @@
 /* . Header e Logo
 /* =================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 
 header{
-	  background-color: #34495e;
+	background-color: #34495e;
     position: fixed;
     padding: .5rem 1rem;
     z-index: 98;
@@ -27,7 +27,6 @@ header h1{
     top: .3rem;
     letter-spacing: .5rem;
     font-size: 3rem !important;
-    font-family: 'Lobster', cursive;
     color: #f7d08c;
     font-weight: 500 !important;
     z-index: 100;
