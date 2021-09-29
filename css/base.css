@@ -91,7 +91,8 @@ html{
       display: block;
   }
   body {
-      line-height: 1;
+      font-size: 14px;
+      line-height: 33px;
   }
   
   ol, ul {
