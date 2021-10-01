@@ -35,8 +35,12 @@ main h2{
 	line-height: 1;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+
 main span{
 	letter-spacing: .2rem;
+  font-family: 'Source Code Pro', monospace;
 }
 
 
@@ -161,7 +165,7 @@ main span{
 /* =================================================================== */
 
 .row-excursao{
-	padding: 2rem 0rem;
+	padding: 0rem;
 }
 
 
@@ -185,10 +189,10 @@ main span{
 
 .col-excursao,
 .col-excursao-2{
-    padding: 2rem;
+    padding: 1rem 2rem;
     background-color: rgba(255, 255, 255,0);
     gap: 1rem;
-    margin: 1.5rem;
+    margin-top: 1rem !important;
     border-radius: 5px 5px 5px 5px;
     transition: 1s;
     box-shadow: 1px 1px 2px gray,
@@ -208,14 +212,17 @@ main span{
 }
 
 .col-excursao i{
-	margin: auto 1.5rem;
+	margin: auto 1rem;
 	color: rgba(47, 54, 64,1.0) !important;
+  font-size: 1.8em;
 }
+
+
 
 .info{
 	background-color: white;
 	border-radius: 0px 0px 5px 5px;
-    color: gba(52, 73, 94,1.0);
+  color: rgba(52, 73, 94,1.0);
 }
 
 
@@ -229,7 +236,20 @@ main span{
 	line-height: 3;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
 
+span.go, 
+span.back{
+  font-weight: 900;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.1em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap');
+
+span.date{
+   font-family: 'Gluten', cursive;  
+}
 
 .more span{
 	padding: .5rem 1.5rem;

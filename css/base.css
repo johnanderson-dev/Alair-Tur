@@ -12,9 +12,8 @@
 
 
 #excursao,
-#galeria,
-#info{
-    padding-top: 10rem;
+#galeria{
+    padding-top: 12rem;
 }
 
 /* 
@@ -25,7 +24,8 @@
 .father-gallery,
 .father-info,
 .father-covid{
-    margin-top: 2rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
     border-radius: 5px 5px 5px 5px;
     transition: 1s;
     box-shadow: 1px 1px 2px gray,
