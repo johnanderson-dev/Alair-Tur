@@ -32,7 +32,7 @@ main h2{
     font-family: :'Fredoka One', cursive;;
     font-weight: 900;
     font-size: 2.5rem;
-	line-height: 1;
+	line-height: 1.5;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
@@ -303,6 +303,7 @@ span.date{
 .grandson-gallery img,
 .grandson-gallery-2 img{
 	width: 100%;
+  height: 100%;
 }
 
 .grandson-gallery-2{
@@ -329,6 +330,7 @@ span.date{
 
 .gallery-hover h3{
 	margin: 0;
+  font-size: 1.8em;
 }
 
 .gallery-hover span{
