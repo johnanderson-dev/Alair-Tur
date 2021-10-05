@@ -43,6 +43,42 @@ main span{
   font-family: 'Source Code Pro', monospace;
 }
 
+ 
+   
+   /* 
+   /* . Section Slider - Keyframe
+   /* =================================================================== */
+   
+   @keyframes slider{
+    0%{
+      left: 0%;
+    }
+  
+    30%{
+      left: 0%;
+    }
+  
+    35%{
+         left: -100%;
+    }
+  
+    65%{
+      left: -100%;
+    }
+      
+    70%{
+      left: -200%;
+    }
+  
+    95%{
+      left: -200%;
+    }
+  
+    100%{
+          left: 0%;
+    }
+  }
+  
 
 
 
@@ -66,42 +102,7 @@ main span{
    figure{
      width: 33.4%;
    }
-   
-   
-   /* 
-   /* . Section Slider - Keyframe
-   /* =================================================================== */
-   
-   @keyframes slider{
-     0%{
-          left: 0%;
-     }
-   
-     30%{
-       left: 0%;
-     }
-   
-     35%{
-          left: -100%;
-     }
-   
-     65%{
-       left: -100%;
-     }
-       
-       70%{
-           left: -200%;
-     }
-   
-     95%{
-       left: -200%;
-     }
-   
-     100%{
-           left: 0%;
-     }
-   }
-   
+  
    
    /* 
    /* . Section Slider - Próximas Viagens
@@ -352,45 +353,67 @@ span.date{
 /* =================================================================== */
  
 .father-info{
-	padding: 2rem;
+  padding: .5rem .5rem 0 2rem;
 }
-
 .child-info{
-	margin: 2rem auto;
+ width: 100%;
 }
 
-.grandsan-info-1{
-	width: 120%;
+.child-info i{
+  margin-right: 1rem;
+ }
+
+.grandson-info-1,
+.grandson-info-3{
+  width: 70%;
+  font-size: 1em;
+  font-family: 'Source Code Pro', monospace;
 }
 
-.grandsan-info-4{
-	width: 100%;
-}
-
-.grandsan-info-1{
-	margin-right: 2rem;
-}
-
-.grandsan-info-4{
-	margin-left: 2rem;
-}
-
-
-.grandsan-info-1 img,
-.grandsan-info-4 img{
-	width: 90%;
+.grandson-info-1{
+  line-height: 2;
 }
 
 
-.grandsan-info h3{
-	font-size: 2rem;
-	margin-bottom: .5rem;
+.grandson-info-3{
+  line-height: 1.6;
+  width: 75%;
 }
 
-.grandsan-info p{
-	font-size: 1.2rem;
+.grandson-info-1 h3,
+.grandson-info-3 h3{
+  font-size: 1.5em;
+  font-family:'Fredoka One', cursive;
+  font-weight: 900;
+  margin-bottom: .5rem;
 }
 
+.grandson-info-2,
+.grandson-info-4{
+  position: relative;
+  width: 20%;
+  margin-right: 2rem;
+}
+
+.grandson-info-4{
+  margin-left: 2rem;
+}
+
+.grandson-info-2 img,
+.grandson-info-4 img{
+  width: 85%;
+  border: solid 1px #34495e;
+  box-shadow: 1px 1px #34495e,
+  2px 2px #34495e,
+  3px 3px #34495e,
+  4px 4px #34495e,
+  5px 5px #34495e,
+  6px 6px #34495e;
+}
+
+.child-info li{
+  text-indent: .5rem;
+ }
 
 
 /* 
@@ -445,7 +468,6 @@ span.date{
 	border-right: solid 2px white;
 	margin-right: 6rem;
 	padding-right: 2rem;
-
 }
 
 .col-rodape:nth-child(4){
