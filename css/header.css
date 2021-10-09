@@ -17,7 +17,7 @@
 header{
 	background-color: #34495e;
     position: fixed;
-    padding: .5rem 1rem;
+    padding: 2rem 3rem 1rem 3rem;
     z-index: 98;
 }
 
@@ -26,10 +26,11 @@ header h1{
     position: relative;
     top: .3rem;
     letter-spacing: .5rem;
-    font-size: 3rem !important;
+    font-size: 3.5rem;
     color: #f7d08c;
-    font-weight: 500 !important;
+    font-weight: 700;
     z-index: 100;
+    margin-bottom: 1rem;
 }
 
 
@@ -40,17 +41,21 @@ header h1{
 
 
 .navbar ul{
-    gap: 3rem   
+  display: flex;
+  flex-direction: row;
+  gap: 3rem   
 }
 
 .nav-item a{
     letter-spacing: .2rem;
-    color: #f7d08c !important;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    color: rgba(247, 208, 140, .7)
 }
 
+
+
 .nav-item a:hover{
-    color: rgba(247, 208, 140, .7) !important;
+    color: rgba(247, 208, 140, 1);
     text-decoration: underline;
 }
 

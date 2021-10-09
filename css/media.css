@@ -11,13 +11,9 @@
 
 
 
-
 @media (max-width:  1281px){
 
-   
-    .next-travels{
-      height: 60vh;
-    }
+  
 
     .row-travels h2{
         font-size: 2.5em;
@@ -35,185 +31,35 @@
        width: 150px !important;
      }
 
-}
- 
-
-
-@media (max-width:  1440px){
-
-    .next-travels{
-      height: 50vh;
-    }
-
-    .row-excursao{
-		display: block !important;
-	}
-
-	.col-excursao{
-		margin: auto;
-	}
-
-	.col-excursao-2{
-		display: none;
-	}
-} 
-
-
-
-@media (max-width: 1280px){
-    .grandsan-info-1{
-        width: 300%;
-     }
- 
-     .grandsan-info-4{
-        width: 220%;
-      }
-
-      .child-covid-1{
-        font-size: 1.2rem;
     
-       }
-
-       .col-rodape h4{
-        font-size: 1.5rem;
-        }
-    
-        .col-rodape span{
-          font-size: .9rem;
-        }
- }
-
-
-@media (max-width:  992px){
-
-    .next-travels{
-       display: none !important;
+    .grandson-info-2,
+    .grandson-info-4{
+       display: none;
     }
 
-    .banner{
-      position: relative;
-      top: 7.7rem;
-     }
-
-     .element{
-        flex-direction: column;
+    .father-info{
+      display: flex;
     }
 
-    .col-excursao i{
-       margin: 1.5rem auto;
-   }
+    .child-info{
+        margin: 0;
+    }
 
-   .child-info{
-    flex-direction: column;
+    .grandson-info-1 p{
+      width: 120%;
+    }
+
+    .grandson-info-3 h3, p,li{
+      width: 130%;
+      line-height: 2;
+    }
+
+
 }
 
-.grandsan-info-1,
-.grandsan-info-4{
-    width: 100%;
-    margin: 0;
- }
 
- .grandsan-info-1,
- .grandsan-info-3{
-    margin-bottom: 2rem;
- }
-
- .father-covid{
-    flex-direction: column;
- }
-
- .child-covid-1{
-     width: 100%;
-     margin-bottom: 2rem;
-  }
-
-  .child-covid-2{
-      width: 90%;
-      margin: auto;
-  }
-
-  header nav{
-    position: fixed !important;
-    top: 0;
-    left: 100%;
-    width: 100vw;
-    height: 100vh;
-    background-color: #34495e;
-    z-index: 99;
-    transition: 2s;
-  }
-
-  header li{
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    font-size: 1.5em;
-    margin: 0rem 0;
-  }
-
-  header .show-menu-btn,
-  header .hide-menu-btn{
-    display: block !important;
-    position: absolute;
-    right: 2rem;
-    top: 1rem;
-  }
-
-  header .show-menu-btn{
-    top: 1.2rem;
-  }
-
-  header .show-menu-btn i{
-     font-size: 1em;
-  }
-  
- 
-
-  header .hide-menu-btn i{
-    font-size: 4rem;
-  }
-
-  header .show-menu-btn i,
-  header .hide-menu-btn i{
-    color: rgba(247, 208, 140, 1) !important;
-    transition: .2s;
-  }
-
-  header .show-menu-btn i:hover,
-  header .hide-menu-btn i:hover{
-    color: rgba(247, 208, 140, .7) !important;
-    transition: .2s;
-  }
-
-  header #chk:checked ~ nav{
-     left: 0;
-}
-} 
-
-
-
-
-@media (max-width: 768px){
-    section{
-       height: auto;
-    }
-
-
-    .gallery-hover h3{
-	   font-size: 1em;
-	   line-height: 1.5;
-     }
-
-    .gallery-hover span{
-	   display: none;
-    }
-
-    #covid{
-        top: 0rem;
-     }
-
-     
-    .rodape{
+@media (max-width: 1025px){
+  .rodape{
         flex-direction: column;
     }
  
@@ -229,11 +75,158 @@
     .new-rodape{
         padding: 0rem 1rem;
     }
- 
+} 
+
+
+@media (max-width:  992px){
+    
+    header{
+      padding: 1rem;
+    }
+
+
+    header h1{
+      font-size: 2.5em;
+    }
+
+    header nav{
+    position: fixed !important;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #34495e;
+    z-index: 99;
+    transition: 2s;
+  }
+
+  header ul{
+     display: flex;
+     flex-direction: column !important;
+     margin: auto;
+     padding-bottom: 2rem;
+  }
+
+  header li{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  header .show-menu-btn,
+  header .hide-menu-btn{
+    display: block !important;
+    position: absolute;
+    right: 2rem;
+    top: 1.1rem;
+    font-size: 4em;
+  }
+
+   header .hide-menu-btn{
+     font-size: 5em;
+   }
+
+
+  header .show-menu-btn i,
+  header .hide-menu-btn i{
+    color: rgba(247, 208, 140, 1);
+    transition: .2s;
+  }
+
+  header .show-menu-btn i:hover,
+  header .hide-menu-btn i:hover{
+    color: rgba(247, 208, 140, .7);
+    transition: .2s;
+  }
+
+  header #chk:checked ~ nav{
+     left: 0;
+  }
+
+    .veiculo{
+       display: none !important;
+    }
+
+     .next-travels{
+     top: 5.5rem;
+     height: 50vh;
+   }
+
+    .slide{
+      position: relative ;
+      top: 5.6rem !important;
+      height: 50vh;
+     }
+
+
+     
+     .element{
+       flex-direction: column;
+     }
+
+     .col-excursao, .col-excursao-2 {
+      width: 70%;
+      margin: auto;
+     }
+
+     .element i{
+       margin: 1rem auto;
+       font-size: 2.5em;
+     }
+
+    .child-covid-1{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .child-covid-2{
+      width: 90%;
+      margin: auto;
+    }
+
+    
+
+
+} 
+
+
+
+
+@media (max-width: 768px){
+
+    .gallery-hover h3{
+	   font-size: 1em;
+	   line-height: 1.5;
+     }
+
+    .gallery-hover span{
+	   display: none;
+    }
+}
+
+
+/* Altura do Monitor Samsung 732nw Plus */ 
+
+@media (min-height: 789px){
+    
+        section{
+          padding-top: 20vh !important;
+        }
 }
 
  
 @media (max-width: 640px){
+
+  header .show-menu-btn,
+  header .hide-menu-btn{
+    top: 1.3rem;
+    font-size: 3.5em;
+  }
+
+   header .hide-menu-btn{
+     font-size: 4.5em;
+   }
       
     .col-newr a,
     .col-newr i{
@@ -255,7 +248,17 @@
  
  }	
 
-@media (max-width: 470px){
+@media (max-width: 576px){
+    .col-travels{
+       flex-direction: column; 
+    }
+
+    .col-travels select , input{
+      width: 100% !important;
+    }
+} 
+
+@media (max-width: 480px){
   
   .info span{
   	font-size: .9rem;
@@ -288,18 +291,5 @@
 }	
 
  
-/* 
-/* . Media Queries
-/* =================================================================== */
-
-
-
-@media (max-width: 992px){
-
-
-
-    
-}    
-
 
 

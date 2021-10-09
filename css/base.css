@@ -13,8 +13,12 @@
 
 #excursao,
 #galeria,
-#info{
-    padding-top: 11rem;
+#info,
+#covid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 7rem;
 }
 
 /* 
@@ -37,8 +41,9 @@
     
 #excursao,
 #galeria,
-#info{
-    padding-top: 0rem;
+#info,
+#covid{
+    padding-top: 10rem;
 }
 }
 
@@ -133,10 +138,14 @@ html{
       height: 100vh;
   }
 
+
+
   @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
   h1, h2{
-    font-family: 'Lobster', cursive;
+    -webkit-font-family: 'Lobster', cursive;
+       -moz-font-family: 'Lobster', cursive;
+            font-family: 'Lobster', cursive;
   }
   
   @media (max-width: 992px){
