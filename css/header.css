@@ -17,19 +17,15 @@
 header{
 	background-color: #34495e;
     position: fixed;
-    padding: 2rem 3rem 1rem 3rem;
-    z-index: 98;
+    padding: 1rem 3rem .5rem 3rem;
 }
+
 
 
 header h1{
     position: relative;
     top: .3rem;
-    letter-spacing: .5rem;
-    font-size: 3.5rem;
     color: #f7d08c;
-    font-weight: 700;
-    z-index: 100;
     margin-bottom: 1rem;
 }
 
@@ -59,11 +55,6 @@ header h1{
     text-decoration: underline;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
-
-.navbar-nav{
-  font-family: 'Balsamiq Sans', cursive;
-}
 
 
 /* 

@@ -2,8 +2,14 @@
 /*
 /* 1 - Sections
 /* 2 - Divs Pais
-/*
+/* 3 - Resetando Tags
+/* 4 - Resetando Navegadores Antigos
+/* 5 - Configurações Básicas para o site
+/* 6 - Tipografia
+/* 7 - Z-Index (Camadas)
 /* =================================================================== */
+
+
 
 
 /* 
@@ -18,7 +24,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 7rem;
+    padding-top: 9rem;
 }
 
 /* 
@@ -37,23 +43,6 @@
                 -1px -1px 2px gray;
 }
 
-@media (max-width: 992px){
-    
-#excursao,
-#galeria,
-#info,
-#covid{
-    padding-top: 10rem;
-}
-}
-
-/* =================================================================== */
-/*
-/* 1 - Resetando Tags
-/* 2 - Resetando Navegadores Antigos
-/* 3 - Configurações Básicas para o site
-/*
-/* =================================================================== */
 
 
 /* 
@@ -140,29 +129,88 @@ html{
 
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-  h1, h2{
-    -webkit-font-family: 'Lobster', cursive;
-       -moz-font-family: 'Lobster', cursive;
-            font-family: 'Lobster', cursive;
+
+  /* 
+  /* . Tipografia 
+  /* =================================================================== */
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+
+@font-face{
+     font-family: lobster;
+     src: url(../fonts/Lobster-Regular.ttf);
+}  
+
+
+  h1{
+    font-family: lobster;
+    font-weight: 600;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+  }
+
+
+
+@font-face{
+     font-family: balsamiq;
+     src: url(../fonts/BalsamiqSans-Bold.ttf);
+}  
+
+
+.navbar-nav, h2{
+  font-family: balsamiq;
+}
+
+ .row-travels h2{
+       font-weight: 900;
+       font-size: 3em;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+  main h2{
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+
+main span{
+  letter-spacing: .2rem;
+  font-family: 'Source Code Pro', monospace;
+}
+
+
+
+
+  /* 
+  /* . Z-Index (Camadas)
+  /* =================================================================== */
+
+  header nav{
+    z-index: 99;
+  }
+
+  header{
+      z-index: 98;
+  }
+
+ .next-travels{
+    z-index: 97;
   }
   
-  @media (max-width: 992px){
-      html{
-          overflow-y: scroll !important;
-      }
-  
-      section{
-          height: auto;
-          margin-bottom: 10rem;
-      }
+ .slide{
+     z-index: 96;
   }
-
-
-
-
-
-
-
 

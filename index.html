@@ -11,8 +11,6 @@
 <!--- Favicon
    ================================================== -->
 
-  <link rel="shortcut icon" href="img/favicon.png" />
-
   <title>Alairtur</title>
 
   <!--- Bootstrap
@@ -35,13 +33,6 @@
   <link rel="stylesheet" href="css/media.css">
   
 
-  <!--- Java Script
-   ================================================== -->
-
-  <script src="js/script.js"></script>
-  
-</head>
-<body>
 
 
 <!--- Header
@@ -52,7 +43,7 @@
 
 <div class="tittle d-flex align-items-center"> 
     <a class="navbar-brand" href="#">
-      <h1>AlairTur</h1>
+      <h1>Alair Tur</h1>
     </a>
   </div>
 
@@ -116,12 +107,12 @@
             </select>
            </div>
 
-           <div class="place d-flex flex-column">
+           <div class="ida d-flex flex-column">
             <span>Ida:</span>
             <input id="ida" class="form-control" type="text" disabled="disabled" value="03/12/2021">
            </div>
 
-           <div class="place d-flex flex-column">
+           <div class="volta d-flex flex-column">
             <span>Volta:</span>
             <input id="volta" class="form-control" type="text" disabled="disabled" value="05/12/2021">
            </div>
@@ -139,6 +130,8 @@
 </div>
 
 <main class="container-fluid container-xl">
+
+ 
  
   <section id="excursao">
 
@@ -161,7 +154,7 @@
                 <div class="info">               <!-- Abertura da div info -->
 
                    <div class="d-flex justify-content-between px-2"> <!-- Abertura da Serra 1 -->
-                      <span class="date" style="font-size: 1.2em;">Parque aquático Arajara</span>
+                      <span class="date" style="font-size: 1.2em;"><bdi>Parque</bdi> Arajara</span>
                       <span style="font-size: 1.2em;">Barbalha</span>
                    </div>                                            <!-- Fechamento da Serra 1 -->
                    <div class="d-flex justify-content-between px-2"> <!-- Abertura da Ida 1 -->
@@ -188,7 +181,7 @@
                   <div class="info">               <!-- Abertura da div info -->
   
                      <div class="d-flex justify-content-between px-2"> <!-- Abertura da Serra 1 -->
-                        <span class="date" style="font-size: 1.2em;">Nossa Senhora de Fátima</span>
+                        <span class="date" style="font-size: 1.2em;"><bdi>Estátua de</bdi> Fátima</span>
                         <span style="font-size: 1.2em;">Crato</span>
                      </div>                                            <!-- Fechamento da Serra 1 -->
                      <div class="d-flex justify-content-between px-2"> <!-- Abertura da Ida 1 -->
@@ -215,7 +208,7 @@
                   <div class="info">               <!-- Abertura da div info -->
   
                      <div class="d-flex justify-content-between px-2"> <!-- Abertura da Serra 1 -->
-                        <span class="date" style="font-size: 1.2em;">Padre Cicero</span>
+                        <span class="date" style="font-size: 1.2em;"><bdi>Padre</bdi> Cicero</span>
                         <span style="font-size: 1.2em;">Juazeiro</span>
                      </div>                                            <!-- Fechamento da Serra 1 -->
                      <div class="d-flex justify-content-between px-2"> <!-- Abertura da Ida 1 -->
@@ -385,11 +378,11 @@
                 Fátima, visita a Igreja Matriz do Crato, 
                 jantar em restaurante e retorno para o hotel. 
                 No domingo após o café da manhã no hotel, 
-                vamos embarcar com a bagagem no ônibus e 
+                vamos <bdo>...</bdo><bdi> embarcar com a bagagem no ônibus e 
                 visitar o Horto e a Estátua do Padre Cicero, 
                 após a visita iremos almoçar no restaurante 
                 e retorno para Fortaleza às 14hs e 
-                chegada prevista em Fortaleza às 22hs. 
+                chegada prevista em Fortaleza às 22hs.</bdi> 
               </p>
           </div>
        </div>
@@ -417,13 +410,13 @@
               </li>
               <li>
                 <i class="fas fa-info"></i>
-                Jantar em restaurante e retorno para o hotel
+                Jantar em restaurante e retorno para o hotel<bdo>...</bdo>
               </li>
-              <li>
+              <li class="hide">
                 <i class="fas fa-info"></i>
                 No domingo após o café da manhã no hotel, vamos embarcar com a bagagem no ônibus
               </li>
-              <li>
+              <li class="hide">
                 <i class="fas fa-info"></i>
                 Para então visitar o Horto e a Estátua do Padre Cicero, após a visita iremos almoçar no restaurante</li>
             </ul>
@@ -473,7 +466,19 @@
 
 </main>
 
+
+
 <footer class="row" id="rodape">
+
+  <div class="feeds">
+
+  <div class="form-feed"> 
+       <a href="https://wa.me/558586113670" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+       </a>
+  </div>
+   
+</div>
 
   <div class="rodape d-flex">
     

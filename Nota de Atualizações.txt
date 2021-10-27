@@ -1,0 +1,26 @@
+Nota de Atualização:
+
+ * 18/10/2021
+    - Ajustado as fonts do sites
+    - Acoplado no projeto uma pasta de fonts 
+    
+ * 19/10/2021
+   - Finalizado o Loyaout no PS
+   - Formatado os Paragrafos 
+   - Organizando as folhas de estilos 
+   - Formatado o Espaçamento Interno das Sections
+   - Corrigido o Espaçamento Interno do Header
+   - Corrigido o posicionamento do Slide
+
+ * 22/10/2021
+   - Atualizado o Loyaout no Photoshop
+
+ * 23/10/2021
+   - Implementado um botão para direcionado para o WhatsApp 
+   - Oraganizado as camadas z-index
+
+ * 24/10/2021
+   - Ajustado o icone do whatsapp para mobile 
+   - Ajustado o espaçamento interno do main no mobile
+   
+

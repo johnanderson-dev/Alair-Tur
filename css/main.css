@@ -7,6 +7,7 @@
 /* 5 - Section Informações
 /* 6 - Section Covid
 /* 7 - Tag Rodape
+/* 8 - Tag Aside - Feeds
 /*
 /* =================================================================== */
 
@@ -21,29 +22,11 @@ main{
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-
 main h2{
 	color:  rgba(47, 54, 64,1.0);
-	-webkit-font-family: :'Fredoka One', cursive;;
-    -moz-font-family: :'Fredoka One', cursive;;
-    -ms-font-family: :'Fredoka One', cursive;;
-    -o-font-family: :'Fredoka One', cursive;;
-    font-family: :'Fredoka One', cursive;;
-    font-weight: 900;
-    font-size: 2.5rem;
-	line-height: 1.5;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
-
-main span{
-	letter-spacing: .2rem;
-  font-family: 'Source Code Pro', monospace;
-}
-
- 
    
    /* 
    /* . Section Slider - Keyframe
@@ -87,7 +70,7 @@ main span{
 /* =================================================================== */
 .slide{
   position: relative;
-  top: 115px !important;
+  top: 9.2rem;
   border: solid 2px red;
   width: 100%;
   height: 70vh;
@@ -134,13 +117,6 @@ main span{
    @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
    
    .row-travels h2{
-      -webkit-font-family:: 'Righteous', cursive;;
-      -moz-font-family:: 'Righteous', cursive;;
-       -ms-font-family:: 'Righteous', cursive;;
-        -o-font-family:: 'Righteous', cursive;;
-           font-family:: 'Righteous', cursive;;
-       font-weight: 900;
-       font-size: 3rem;
        color: white;
        line-height: 2;
        text-shadow: 5px 5px 10px black;
@@ -293,7 +269,7 @@ span.date{
      
  
 /* 
-/* . Galeria
+/* . Section Galeria
 /* =================================================================== */
 
 
@@ -370,6 +346,10 @@ span.date{
 }
 .child-info{
  width: 100%;
+}
+
+.child-info bdo{
+  display: none;
 }
 
 .child-info i{
@@ -544,3 +524,32 @@ address{
 
 
 
+/* 
+/* . Tag Aside - Feeds
+/* =================================================================== */
+
+
+.feeds{
+   display: ;
+   position: fixed;
+   left: 94vw;
+   top: 23vh;
+   width: 71px;
+   font-size: 2.5em;
+}
+
+
+.form-feed{
+  padding: .5rem;
+  background-color: rgba(52, 73, 94, 1);
+  transition: .5s;
+}
+
+
+.form-feed:hover{
+  background-color: rgba(52, 73, 94, .8);
+}
+
+.form-feed a{
+  color: #f7d08c;
+}

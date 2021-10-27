@@ -11,74 +11,85 @@
 
 
 
-@media (max-width:  1281px){
 
-  
 
-    .row-travels h2{
-        font-size: 2.5em;
-    }
+/* 
+/* . Note Book
+/* =================================================================== */
 
-     input{
-        width: 120px !important;
-     } 
-    
-     input#veiculo{
-       width: 180px !important;
+
+
+
+@media(max-width:  1440px){
+
+ 
+
+     .more span{
+       margin-top: 2rem;
      }
 
-     select{
-       width: 150px !important;
+      .grandson-info-2,
+      .grandson-info-4{
+          display: none !important; 
+      }
+
+      .father-info{
+        display: flex;
+        padding: .5rem 0 1rem 4rem;
+      }
+
+      .child-info bdi{
+        display: none;
+      }
+
+      .child-info bdo{
+        display: inline;
+      }
+
+      .child-info  .hide{
+        display: none;
+      }
+}
+
+
+@media (max-width: 1080px){
+
+  h2{
+    font-size: 2.5em !important;
+  }
+
+  .col-travels {
+       background-color: #34495e;
+       padding: .5reM .5rem 1.5rem .5rem;
+       border-radius: 10px;
+       flex-direction: column;
+       width: 60vw;
      }
 
-    
-    .grandson-info-2,
-    .grandson-info-4{
-       display: none;
-    }
 
-    .father-info{
-      display: flex;
-    }
-
-    .child-info{
-        margin: 0;
-    }
-
-    .grandson-info-1 p{
-      width: 120%;
-    }
-
-    .grandson-info-3 h3, p,li{
-      width: 130%;
-      line-height: 2;
-    }
-
+   .next-travels {
+       height: 55vh;
+      top: 13rem;
+   }
 
 }
 
 
-@media (max-width: 1025px){
-  .rodape{
-        flex-direction: column;
-    }
- 
-    .col-rodape{
-     width: 100%;
-     border-right: none;
-     border-bottom: solid 2px white;
-     margin-bottom: 4rem;
-     padding-bottom: 2rem;
- 
-    }
- 
-    .new-rodape{
-        padding: 0rem 1rem;
-    }
-} 
 
+/* 
+/* . Large
+/* =================================================================== */
 
 @media (max-width:  992px){
+
+    html{
+          overflow-y: scroll !important;
+      }
+  
+    section{
+          height: auto;
+          margin-bottom: 10rem;
+    }
     
     header{
       padding: 1rem;
@@ -96,7 +107,6 @@
     width: 100%;
     height: 100vh;
     background-color: #34495e;
-    z-index: 99;
     transition: 2s;
   }
 
@@ -104,7 +114,7 @@
      display: flex;
      flex-direction: column !important;
      margin: auto;
-     padding-bottom: 2rem;
+     padding-bottom: 4rem;
   }
 
   header li{
@@ -118,14 +128,14 @@
   header .hide-menu-btn{
     display: block !important;
     position: absolute;
-    right: 2rem;
-    top: 1.1rem;
+    right: 1.5rem;
+    top: 1rem;
     font-size: 4em;
   }
 
-   header .hide-menu-btn{
+  header .hide-menu-btn{
      font-size: 5em;
-   }
+  }
 
 
   header .show-menu-btn i,
@@ -144,152 +154,317 @@
      left: 0;
   }
 
-    .veiculo{
-       display: none !important;
-    }
+  .slide{
+    top: 5.7rem;
+    height: 80vh;
+  }
 
-     .next-travels{
-     top: 5.5rem;
-     height: 50vh;
-   }
+  .row-travels h2 {
+     font-size: 2.3em;
+  }
 
-    .slide{
-      position: relative ;
-      top: 5.6rem !important;
-      height: 50vh;
-     }
+  main{
+    position: relative;
+    top: 5rem;
+    padding: 0 3.7rem !important;
+  }
 
-
-     
-     .element{
-       flex-direction: column;
-     }
-
-     .col-excursao, .col-excursao-2 {
-      width: 70%;
-      margin: auto;
-     }
-
-     .element i{
-       margin: 1rem auto;
-       font-size: 2.5em;
-     }
-
-    .child-covid-1{
-        width: 100%;
-        margin-bottom: 2rem;
-    }
-
-    .child-covid-2{
-      width: 90%;
-      margin: auto;
-    }
-
-    
-
-
-} 
-
-
-
-
-@media (max-width: 768px){
-
-    .gallery-hover h3{
-	   font-size: 1em;
-	   line-height: 1.5;
-     }
-
-    .gallery-hover span{
-	   display: none;
-    }
-}
-
-
-/* Altura do Monitor Samsung 732nw Plus */ 
-
-@media (min-height: 789px){
-    
-        section{
-          padding-top: 20vh !important;
-        }
-}
-
- 
-@media (max-width: 640px){
-
-  header .show-menu-btn,
-  header .hide-menu-btn{
-    top: 1.3rem;
+  .feeds{
+    position: relative;
+    top: 5rem;
+    left: 92vw;
+    z-index: 0;
     font-size: 3.5em;
   }
 
-   header .hide-menu-btn{
-     font-size: 4.5em;
-   }
-      
-    .col-newr a,
-    .col-newr i{
-      margin: auto .2rem;
-      font-size: 1rem;
-     }
- 
-     .col-newr a, span{
-         font-size: .8rem;
-     }
- 
-     .new-rodape{
-        padding: 1rem;
-    }
- 
-    .col-newr:nth-child(3){
-        display: none;
-    }
- 
- }	
+  .rodape{
+    flex-direction: column;
+  }
 
-@media (max-width: 576px){
-    .col-travels{
-       flex-direction: column; 
-    }
-
-    .col-travels select , input{
-      width: 100% !important;
-    }
+  .col-rodape {
+      width: 100%;
+      border-right: none;
+      border-bottom: solid 2px white;
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+  }
 } 
 
+
+
+
+/* 
+/* . Middle
+/* =================================================================== */
+
+
+@media (min-width: 768px) and (max-width: 991px){
+      
+      .info bdi{
+        display: none;
+      }
+
+     
+
+      
+}
+
+
+
+/* 
+/* . Small
+/* =================================================================== */
+
+@media (max-width: 768px){
+      
+
+      .slide {
+        height: 85vh !important;
+      }
+
+      header ul{
+        display: flex;
+        flex-direction: column !important;
+        margin: auto;
+      }
+
+      header li{
+        font-size: 1.5em;
+        margin: 0 1rem;
+      }
+
+
+      .col-travels {
+         flex-direction: column;
+      }
+
+      .col-excursao{
+          margin: auto;
+      }
+
+      .element{
+        flex-direction: column;
+
+      }
+
+
+      i.fa-plus{
+        margin: 1rem auto;
+        font-size: 2em;
+      }
+
+        .father-covid{
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .child-covid-1,
+      .child-covid-2{
+         width: 80%;
+         margin: auto;
+       }
+
+       .child-covid-1{
+        margin-bottom: 2rem;
+       }
+
+       .feeds{
+        left: 90vw;
+      }
+
+
+}
+
+@media (max-width: 700px){
+
+      #excursao, 
+      #galeria, 
+      #info, 
+      #covid {
+         padding-top: 8rem; 
+      }
+
+      .grandson-info-2,
+      .grandson-info-4{
+        display: none;
+      }
+
+      .grandson-info-1, 
+      .grandson-info-3 {
+         width: 100%;
+         margin: 1rem 0;
+      }
+
+
+     .new-rodape{
+       display: block !important;
+       text-align: center;
+       line-height: 3rem;
+     } 
+}
+
+
+
+}
+
+
+/* 
+/* . Extra Small
+/* =================================================================== */
+
+
+
+@media (min-width: 480px) and (max-width: 576px){
+      
+
+      header h1 {
+        font-size: 2em;
+      }
+
+
+      .more span{
+        text-align: center;
+      }
+
+   
+ }   
+
+
+
+@media (max-width: 576px){
+      .row-travels h2 {
+       font-size: 2.5em !important;
+       text-shadow: none; 
+       color:  rgba(47, 54, 64,1.0);
+      }
+
+
+     .next-travels{
+          position: relative !important;
+          top: 10rem;
+      }
+
+      .slide {
+         height: 40vh !important;
+      }
+
+      #excursao, 
+      #galeria, 
+      #info, 
+      #covid {
+        position: relative;
+         top: 1rem; 
+      }
+      .col-travels {
+         width: 80vw;
+     }
+
+     main{
+       padding-top: 5rem !important;
+     }
+
+     .feeds{
+      left: 87vw;
+    }
+
+}
+
 @media (max-width: 480px){
-  
-  .info span{
-  	font-size: .9rem;
-  }
+      .row-travels h2 {
+       font-size: 2.3em;
+      }
 
-  .more span > a{
-     font-size: .9rem;
-  }
+       header{
+      padding: .5rem 1rem;
+    }
 
-  .gallery-hover h3{
-    display: none;
-  }
+     header h1{
+       font-size: 2em !important;
+    }
 
-  .col-newr a:nth-child(3){
-    display: none;
+    .slide{
+      top: 4.7rem;
+    }
+
+     header .show-menu-btn,
+     header .hide-menu-btn{
+       top: 1rem !important;
+       font-size: 3em !important;
 }
 
- .col-newr a,
-.col-newr i{
- margin: auto .5rem;
+.feeds{
+  left: 85vw;
+  font-size: 3em;
 }
 
 
 }
 
-@media (max-width: 380px){
-   .more span > a{
-     font-size: .7rem;
-  }
-}	
+
+
+   
+/* 
+/* . Iphone 5, Iphone 6
+/* =================================================================== */
+
+
+@media (max-width: 400px){
+  .row-travels h2 {
+       font-size: 1.5em !important;
+      }
+
+      .feeds{
+        left: 80vw;
+      }
+      
+}
+
+@media (min-width: 320px) and (max-width: 479px){
+      
+   
+      header h1{
+        font-size: 1.5em;
+      }
+
+      header .show-menu-btn, 
+      header .hide-menu-btn{
+        font-size: 2.5em;
+        top: 1.5rem;
+      } 
+
+} 
+
+@media (max-width: 319px){
+
+    header h1{
+        font-size: 1em !important;
+      }
+
+      header .show-menu-btn, 
+      header .hide-menu-btn{
+        font-size: 2em;
+        top: 1.7rem;
+      } 
+
+}
+
 
  
+
+
+
+
+
+   
+/* 
+/* . Height - Monitor de 19,5'
+/* =================================================================== */
+
+
+
+/* 
+/* . 899 = Full Screen (f11); Normal = 789 px 
+/* =================================================================== */
+
 
 
